@@ -90,5 +90,6 @@ node default {
 
   include ctags
   include java
+  include python
 
 }
