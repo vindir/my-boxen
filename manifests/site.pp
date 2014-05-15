@@ -92,5 +92,6 @@ node default {
   include java
   include python
   include keepassx
+  include tunnelblick::beta
 
 }
