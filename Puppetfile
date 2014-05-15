@@ -61,6 +61,7 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 #
 github "ctags",       "1.0.0"
+github "wget",        "1.0.1"
 github "java",        "1.5"
 github "python",      "1.3"
 github "keepassx",    "1.0.0"

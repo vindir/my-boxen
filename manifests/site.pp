@@ -89,6 +89,7 @@ node default {
   }
 
   include ctags
+  include wget
   include java
   include python
   include keepassx
