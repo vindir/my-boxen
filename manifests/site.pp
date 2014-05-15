@@ -93,5 +93,6 @@ node default {
   include python
   include keepassx
   include tunnelblick::beta
+  include hangout_plugin
 
 }
