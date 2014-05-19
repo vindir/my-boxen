@@ -66,4 +66,6 @@ github "java",        "1.5"
 github "python",      "1.3"
 github "keepassx",    "1.0.0"
 github "tunnelblick", "1.0.6"
+github "sublime_text_2", "1.1.2"
 github "hangout_plugin",  "1.0.0", :repo => "cefo/puppet-hangout_plugin"
+

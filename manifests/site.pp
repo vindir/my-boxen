@@ -88,6 +88,7 @@ node default {
     target => $boxen::config::repodir
   }
 
+  #Vocalocity Base Package Includes
   include ctags
   include wget
   include java
@@ -95,5 +96,11 @@ node default {
   include keepassx
   include tunnelblick::beta
   include hangout_plugin
+  include sublime_text_2
+
+  #Vocalocity Base Include Options
+  sublime_text_2::package { 'Emmet':
+      source => 'sergeche/emmet-sublime'
+  }
 
 }
