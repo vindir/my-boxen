@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-adium
+  specs:
+    adium (1.4.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.4.2)
@@ -109,6 +114,11 @@ GITHUBTARBALL
     tunnelblick (1.0.6)
 
 GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.11)
+
+GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.1)
@@ -139,6 +149,7 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
+  adium (= 1.4.0)
   boxen (= 3.4.2)
   ctags (= 1.0.0)
   dnsmasq (= 1.0.1)
@@ -165,6 +176,7 @@ DEPENDENCIES
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   tunnelblick (= 1.0.6)
+  virtualbox (= 1.0.11)
   wget (= 1.0.1)
   xquartz (= 1.1.1)
 

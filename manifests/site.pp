@@ -96,11 +96,18 @@ node default {
   include keepassx
   include tunnelblick::beta
   include hangout_plugin
-  include sublime_text_2
+  include virtualbox
+  include adium
 
+  include sublime_text_2
   #Vocalocity Base Include Options
   sublime_text_2::package { 'Emmet':
       source => 'sergeche/emmet-sublime'
+  }
+
+  include eclipse::java
+  class { 'eclipse::java':
+      version => 'SR2'
   }
 
 }

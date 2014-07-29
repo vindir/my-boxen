@@ -60,12 +60,15 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 #
-github "ctags",       "1.0.0"
-github "wget",        "1.0.1"
-github "java",        "1.5"
-github "python",      "1.3"
-github "keepassx",    "1.0.0"
-github "tunnelblick", "1.0.6"
-github "sublime_text_2", "1.1.2"
+github "ctags",           "1.0.0"
+github "wget",            "1.0.1"
+github "java",            "1.5"
+github "python",          "1.3"
+github "keepassx",        "1.0.0"
+github "tunnelblick",     "1.0.6"
+github "sublime_text_2",  "1.1.2"
 github "hangout_plugin",  "1.0.0", :repo => "cefo/puppet-hangout_plugin"
+github "virtualbox",      "1.0.11"
+github "adium",           "1.4.0"
+github "eclipse",         "2.4.1"
 
