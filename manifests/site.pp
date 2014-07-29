@@ -98,6 +98,7 @@ node default {
   include hangout_plugin
   include virtualbox
   include adium
+  include eclipse::java
 
   include sublime_text_2
   #Vocalocity Base Include Options
@@ -105,9 +106,5 @@ node default {
       source => 'sergeche/emmet-sublime'
   }
 
-  include eclipse::java
-  class { 'eclipse::java':
-      version => 'SR2'
-  }
 
 }
