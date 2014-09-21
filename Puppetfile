@@ -72,5 +72,5 @@ github "virtualbox",      "1.0.11"
 github "adium",           "1.4.0"
 github "eclipse",         "2.4.1"
 github "iterm2",          "1.2.0"
-github "stdlib",          "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+#github "stdlib",          "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 

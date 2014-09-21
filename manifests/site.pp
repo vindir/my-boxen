@@ -106,8 +106,8 @@ node default {
       source => 'sergeche/emmet-sublime'
   }
 
-  #include iterm2::stable
-  include iterm2::dev
+  include iterm2::stable
+  #include iterm2::dev
 
   include iterm2::colors::arthur
   #include iterm2::colors::solarized_dark
