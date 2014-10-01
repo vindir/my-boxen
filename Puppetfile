@@ -73,4 +73,7 @@ github "adium",           "1.4.0"
 github "eclipse",         "2.4.1"
 github "iterm2",          "1.2.0"
 #github "stdlib",          "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "hipchat",         "1.1.3"
+github "vlc",             "1.1.0"
+github "skype",           "1.0.9"
 

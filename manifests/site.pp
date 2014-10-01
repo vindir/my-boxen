@@ -112,5 +112,12 @@ node default {
   include iterm2::colors::arthur
   #include iterm2::colors::solarized_dark
   #include iterm2::colors::saturn
+  include hipchat
+  include skype
+
+  #include vlc
+  class { 'vlc': 
+    version => '2.1.5'
+  }
 
 }
