@@ -120,4 +120,13 @@ node default {
     version => '2.1.5'
   }
 
+  package { 'coreutils':
+    ensure => present,
+    #install_options => [
+    #  '--with-fpm',
+    #  '--without-apache'
+    #],
+    #require => Package['zlib']
+  }
+
 }
