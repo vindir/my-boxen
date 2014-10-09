@@ -114,6 +114,7 @@ node default {
   #include iterm2::colors::saturn
   include hipchat
   include skype
+  include apachedirectorystudio
 
   #include vlc
   class { 'vlc': 
