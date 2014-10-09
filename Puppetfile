@@ -77,5 +77,5 @@ github "hipchat",         "1.1.3"
 github "vlc",             "1.1.0"
 github "skype",           "1.0.9"
 
-github "apachedirectorystudio", "0.0.3"
+github "apachedirectorystudio", "0.0.3", :repo => "jplana/puppet-apachedirectorystudio"
 
